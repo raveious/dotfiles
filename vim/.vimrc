@@ -21,6 +21,10 @@ nnoremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
 
+" Save whenever you push ctrl + s
+:nmap <c-s> :w<CR>
+:imap <c-s> <Esc>:w<CR>a
+
 " Uncomment below to set the max textwidth. Use a value corresponding to the
 " width of your screen.
 " set textwidth=79

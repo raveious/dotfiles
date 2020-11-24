@@ -2,7 +2,7 @@
 
 for backup in .bashrc .bash_profile .bash_logout
 do
-	if [ -f $HOME/$backup ]
+	if [ -f "$HOME/$backup" ] && [ ! -L "$HOME/$backup" ]
 	then
 		mv $HOME/$backup $HOME/$backup.old
 	fi

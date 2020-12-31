@@ -22,4 +22,4 @@ alias reboot-to-linux='reboot_to "Arch Linux"'
 
 alias cd..='cd ..'
 alias ls='ls --color=auto'
-
+alias yeet='git push'

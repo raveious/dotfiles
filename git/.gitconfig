@@ -16,3 +16,25 @@
   added = yellow
   changed = green
   untracked = cyan
+[alias]
+  lost = stash
+  found = stash pop
+  overit = stash clear
+  in = add
+  out = rm
+  find = grep
+  wasted = reset HEAD
+  fuckedup = reset --hard
+  with = merge
+  real = rebase
+  m = checkout master
+  this = checkout
+  that = checkout -
+  meow = status
+  wtf = status
+  what = diff
+  huh = diff
+  bah = blame
+  congrat = blame
+  eh = config --get-regexp alias
+  ci = commit

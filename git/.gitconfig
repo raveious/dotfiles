@@ -38,3 +38,11 @@
   congrat = blame
   eh = config --get-regexp alias
   ci = commit
+  back = restore
+  vtree = log --graph --decorate --oneline
+  vvtree = log --graph --decorate --abbrev-commit
+  last = log -1
+[init]
+	defaultBranch = main
+[diff]
+	tool = vimdiff

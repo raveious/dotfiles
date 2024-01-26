@@ -91,3 +91,6 @@ autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview"
 
 colo monokai
+
+" Setting text wrap on git commit messages
+au FileType gitcommit setlocal tw=72

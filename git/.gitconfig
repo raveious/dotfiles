@@ -40,7 +40,7 @@
   ci = commit
   back = restore
   vtree = log --graph --decorate --oneline
-  vvtree = log --graph --decorate --abbrev-commit
+  vvtree = log --graph --decorate
   last = log -1
 [init]
 	defaultBranch = main

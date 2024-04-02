@@ -42,6 +42,7 @@
   vtree = log --graph --decorate --oneline
   vvtree = log --graph --decorate
   last = log -1
+  alias = config --global --get-regexp alias.*
 [init]
 	defaultBranch = main
 [diff]

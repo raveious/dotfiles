@@ -10,3 +10,8 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
+
+if [ -f "$HOME/.cargo/env" ]; then
+  . "$HOME/.cargo/env"
+fi
+
